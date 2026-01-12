@@ -26,9 +26,10 @@ This software is an experimental project designed to explore:
 * **Local Media Streaming:** Real-time video remuxing and browser-based playback.
 
 **Important Notes:**
-1.  **Content Agnostic:** Jubako is a client-side tool. It does not host, index, or distribute any files. It acts solely as a user-agent to fetch metadata and connect to public swarms.
-2.  **Third-Party APIs:** Metadata is provided by AniList. Search results are aggregated from public sources (e.g., Nyaa). The availability and legality of content depend on your local jurisdiction and the specific sources you choose to access.
-3.  **User Responsibility:** The developer of Jubako is not responsible for how this tool is used. You are solely responsible for ensuring your usage complies with local laws and copyright regulations.
+1.  **Content Agnostic Utility:** Jubako is a client-side utility, similar to a web browser or a standard BitTorrent client. The software itself does not host, index, or store any copyrighted content.
+2.  **Protocol Behavior:** Usage of the BitTorrent protocol involves the simultaneous downloading and uploading of data chunks. By using this software, your device participates in a peer-to-peer swarm, which may involve distributing data to other users.
+3.  **Third-Party Sources:** Metadata is provided by AniList. Search results are aggregated from public sources. The availability and legality of content depend on your local jurisdiction and the specific sources you choose to access.
+4.  **User Responsibility:** The developer of Jubako is not responsible for the content accessed or the data transmitted by the user. You are solely responsible for ensuring your usage complies with local laws and copyright regulations.
 
 *Use this tool responsibly and support the creators of the media you love.*
 
