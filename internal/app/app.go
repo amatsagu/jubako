@@ -49,6 +49,7 @@ func NewApplication(embeddedFrontend embed.FS) *App {
 
 	// API routes
 	mux.HandleFunc("GET /api/search", route.NewNavSearchHandler(db))
+	mux.HandleFunc("GET /api/anime-timetable", route.NewAnimeTimetableHandler(db))
 
 	frontendFS, err := fs.Sub(embeddedFrontend, "frontend")
 	if err != nil {
